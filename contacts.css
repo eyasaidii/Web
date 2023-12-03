@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info img {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.navigation-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation-links a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #007BFF;
+    transition: background-color 0.3s, color 0.3s;
+}
