@@ -1,35 +1,57 @@
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 h2 {
-    text-align: center;
-    color: #0056b3;
+    color: #333;
 }
 
-.contact-info {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.contact-info p {
-    margin: 10px 0;
-}
-
-.contact-info img {
+label {
     display: block;
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 .navigation-links {
@@ -38,14 +60,7 @@ h2 {
 }
 
 .navigation-links a {
-    display: inline-block;
-    margin-right: 20px;
+    margin: 0 10px;
     text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
-    padding: 8px 16px;
-    border-radius: 4px;
-    background-color: #fff;
-    border: 1px solid #007BFF;
-    transition: background-color 0.3s, color 0.3s;
+    color: #333;
 }
